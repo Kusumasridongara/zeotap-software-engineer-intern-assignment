@@ -1,0 +1,24 @@
+AI PROMPTS USED DURING DEVELOPMENT
+
+1. Explain how to implement a durable execution engine in Java using SQLite.
+2. How to design a step() primitive that memoizes execution results.
+3. How to implement logical sequence tracking for workflow steps.
+4. How to persist step execution state in a relational database.
+5. How to prevent re-execution of completed workflow steps.
+6. How to implement crash recovery in workflow systems.
+7. What is the zombie step problem and how to prevent it?
+8. How to handle IN_PROGRESS vs COMPLETED step states.
+9. How to make a step execution thread-safe in Java.
+10. How to run parallel steps using CompletableFuture.
+11. How to safely write to SQLite from multiple threads.
+12. How to simulate a crash from CLI in Java.
+13. How to design a workflow runner for resumable execution.
+14. How to serialize step outputs using Jackson.
+15. How to ensure idempotent execution in distributed workflows.
+16. How to structure a multi-module Maven project.
+17. How to create a professional README explaining durable execution.
+18. How to test crash recovery behavior in Java applications.
+19. How to refactor Java package structure professionally.
+20. How to implement synchronized step execution for thread safety.
+
+These prompts were used for design reasoning, debugging, and architectural decisions.
