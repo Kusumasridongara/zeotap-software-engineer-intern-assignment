@@ -1,0 +1,25 @@
+{
+  "inputFilePath": "fanout-engine/data/sample.csv",
+
+  "queueCapacity": 1000,
+
+  "restSink": {
+    "enabled": true,
+    "rateLimitPerSecond": 50
+  },
+
+  "grpcSink": {
+    "enabled": true,
+    "rateLimitPerSecond": 100
+  },
+
+  "messageQueueSink": {
+    "enabled": true,
+    "rateLimitPerSecond": 200
+  },
+
+  "wideColumnDbSink": {
+    "enabled": true,
+    "rateLimitPerSecond": 1000
+  }
+}
